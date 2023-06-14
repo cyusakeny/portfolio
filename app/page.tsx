@@ -29,7 +29,8 @@ const MyComponent: React.FC<MyComponentProps> = ({ /* Destructure props here */ 
           <FontAwesomeIcon icon={faContactCard} className=" w-[20px] h-[20px]"/>
           Contact</p>
       </div>
-      <div className="overflow-y-auto h-[82%] w-[80%] mt-[30px] ml-[8%] ">
+      <div className="overflow-y-auto h-[82%] w-[80%] mt-[30px] ml-[8%] scrollbar-track-bg-gray-200 
+      scrollbar-thumb-[var(--scrollbar-color)]">
       <Profile/>
       </div>
       <div className="flex absolute w-[98%]  bottom-[2%] flex-row justify-end ">

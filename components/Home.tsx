@@ -20,7 +20,7 @@ problem-solving abilities.
         </span>
         </div>
         <div className=" h-full  w-[50%] ">
-        <img src="/keny.png" alt="" className="w-full h-[560px] object-cover"/>
+        <img src="/keny.png" alt="" className="w-full h-[500px] object-cover"/>
         </div>
      
     </div>
