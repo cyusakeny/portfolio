@@ -4,8 +4,6 @@ interface WorkProps {
   imageSrc: string;
   language: string;
   experience: string;
-  color: string;
-  level: string;
 
 }
 

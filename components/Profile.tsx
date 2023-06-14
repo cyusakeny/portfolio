@@ -46,11 +46,11 @@ const Profile: React.FC<MyComponentProps> = ({ /* Destructure props here */ }) =
                 <h1 className="text-2xl font-bold underline underline-offset-8
                  text-[#b3afaf]">Works</h1>
                 <div className="grid grid-cols-3 gap-6">
-               <Works  imageSrc="/commerce.png" language="E-Commerce" level="Paid job" color="bg-[#0fdb42]"
+               <Works  imageSrc="/commerce.png" language="E-Commerce" 
                     experience="https://pro1commerce.netlify.app/"/>
-                <Works  imageSrc="/ori.png" language="Gaming" level="Paid job" color="bg-[#0fdb42]"
+                <Works  imageSrc="/ori.png" language="Three Js" 
                     experience="https://origame.netlify.app/"/>
-                <Works  imageSrc="/rconnect.png" language="Connectivity" level="Paid job" color="bg-[#0fdb42]"
+                <Works  imageSrc="/rconnect.png" language="Connectivity"
                     experience="https://rconnect.netlify.app/"/>
                 </div>
             </div>
