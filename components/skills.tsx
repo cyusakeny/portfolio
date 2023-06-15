@@ -12,7 +12,7 @@ interface CardProps {
 const Skill: React.FC<CardProps> = ({ imageSrc, language, experience, color, level }) => {
   return (
     <div className="pl-[7px] pb-[34px] rounded-[8px] shadow-custom card 
-     shadow-[#232423] bg-[#e6ebe7] cursor-pointer
+     shadow-[#232423] bg-[#fcfcfc] cursor-pointer
      w-[250px] flex flex-col space-y-[10px] pt-[4px]">
       <div className={`mr-auto ${color} w-auto p-[5px] text-[#f5f5f5]
       font-sans rounded-[32px]`}>

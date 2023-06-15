@@ -15,8 +15,9 @@ const Home: React.FC<MyComponentProps> = ({ /* Destructure props here */ }) => {
 hardworking, passionate, and enthusiastic individual who always wants to learn new things. I possess strong analytical skills, excellent
 problem-solving abilities.
         </p>
-        <span className="inline-block border-[1px] border-[#b3afaf] text-center rounded-[25px] mt-[60px] w-[130px]">
-          <a href="">Github Link</a>
+        <span className="inline-block border-[1px] border-[#b3afaf] hover:bg-[#b3afaf] hover:text-[#04001f]
+        p-[5px] text-center rounded-[25px] mt-[60px] w-[130px]">
+          <a href="https://github.com/cyusakeny">Github Link</a>
         </span>
         </div>
         <div className=" h-full  w-[50%] ">

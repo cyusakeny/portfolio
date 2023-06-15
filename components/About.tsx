@@ -3,7 +3,7 @@ interface MyComponentProps {
 }
 const About: React.FC<MyComponentProps> = ({ /* Destructure props here */ }) => {
     return (
-      <div className="w-[90%] mx-auto space-y-[12px] flex flex-col">
+      <div className="w-[90%] mx-auto mt-[6.8%] space-y-[12px] flex flex-col">
          <div className=" flex flex-col space-y-[6px] ">
          <h1 className="text-2xl font-normal underline underline-offset-8
                  text-[#b3afaf]">About Me</h1>
