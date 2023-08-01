@@ -5,7 +5,7 @@ import Head from 'next/head';
 import classNames from 'classnames';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowCircleLeft, faArrowCircleRight, faHouseUser, faUserCircle} from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faLinkedin, faTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
 import { faCircle, faUser } from '@fortawesome/free-regular-svg-icons';
 import Profile from '@/components/Profile';
 import About from '@/components/About';
@@ -64,7 +64,7 @@ const Display =()=>{
   return (
     <>
         <Head>
-        <title>Cyusa Keny</title>
+        <title>The Vitals</title>
       </Head>
     <div className=" flex flex-col bg-[#04001f] h-screen overflow-y-hidden">
       <div className="mt-[10px] text-white  flex flex-row justify-end 
@@ -76,11 +76,11 @@ const Display =()=>{
         <p className="flex flex-row cursor-pointer hover:border-b-[1px]
          border-white" onClick={()=>{setIndex(2)}}>
           <FontAwesomeIcon icon={faUser} className=" w-[16px] h-[20px]" />
-          Profile</p>
+          Projects</p>
         <p className="flex flex-row cursor-pointer hover:border-b-[1px]
          border-white" onClick={()=>{setIndex(3)}}>
           <FontAwesomeIcon icon={faUserCircle} className=" w-[20px] h-[20px]"/>
-          About Me</p>
+          About Us</p>
       </div>
       <div className="overflow-y-auto h-[82%] w-[80%] mt-[30px] ml-[8%] scrollbar scrollbar-thumb-[#f5f5f5]
       scrollbar-w-[3px]  
@@ -97,8 +97,8 @@ const Display =()=>{
       </div>
       </div>
       <div className=" absolute bottom-[14%] text-[1px] left-[1%] w-[3%]">
-       <a href="https://www.linkedin.com/in/cyusa-munezero-keny-172b621bb/"><FontAwesomeIcon icon={faLinkedin} className=" text-[#b3afaf] w-[23px] h-[30px]"/></a> 
-       <a href=""><FontAwesomeIcon icon={faTwitter} className=" text-[#b3afaf] w-[23px] h-[30px]"/></a>
+       <a href=""><FontAwesomeIcon icon={faYoutube} className=" text-[#b3afaf] w-[23px] h-[30px]"/></a> 
+       <a href="instagram.com/vitals_elab_c6"><FontAwesomeIcon icon={faInstagram} className=" text-[#b3afaf] w-[23px] h-[30px]"/></a>
       <a href=""><FontAwesomeIcon icon={faFacebook} className="text-[#b3afaf] w-[23px] h-[30px]" /></a>
       </div>
       <div className=" text-[#b3afaf] text-center flex flex-col space-y-[20px] absolute bottom-[54%] w-[3%] left-[90%]">

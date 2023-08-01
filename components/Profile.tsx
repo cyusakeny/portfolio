@@ -8,52 +8,30 @@ const Profile: React.FC<MyComponentProps> = ({ /* Destructure props here */ }) =
         <div className=" flex flex-col space-y-[10px]">
             <div className="flex flex-col space-y-[20px]">
                 <h1 className="text-2xl font-bold underline underline-offset-8
-                 text-[#b3afaf]">Skills</h1>
-                <div className=" grid grid-cols-3 gap-6">
-                    <Skill imageSrc="/react.png" language="React Js" level="Expert" color="bg-[#348c4b]"
-                    experience="5+ years of experience."/>
-                    <Skill imageSrc="/node.png" language="Node Js" level="Expert" color="bg-[#348c4b]"
-                     experience="5+ years of experience. "/>
-                    <Skill imageSrc="/postgres.png" language="Postgres" level="Expert" color="bg-[#348c4b]"
-                     experience="5+ years of experience. "/>
-                    <Skill imageSrc="/spring.png" language="Spring" level="Intermediate" color="bg-[#3239c7]"
-                     experience="3+ years of experience. "/>
-                    <Skill imageSrc="ai.png" language="Machine Learning" level="Beginner" color="bg-[#ed7824]"
-                     experience="New to this field. "/>
-                    <Skill imageSrc="/python.png" language="Python" level="Intermediate" color="bg-[#3239c7]"
-                     experience="3+ years of experience. "/>
-                    <Skill imageSrc="/redis.png" language="Redis" level="Expert" color="bg-[#348c4b]"
-                     experience="3+ years of experience. "/>
-                    <Skill imageSrc="/cloud.png" language="Cloud" level="Intermediate" color="bg-[#3239c7]"
-                     experience="1+ years of experience"/>
-                    <Skill imageSrc="/c++.png" language="C++" level="Intermediate" color="bg-[#3239c7]"
-                     experience="2+ years of experience. "/>
+                 text-[#b3afaf]">Connect Rwanda</h1>
+                <div className="">
+                    <p className="text-[white]">An innovative project designed to empower Rwandan Engineers by providing them with 
+                    a comprehensive platform to explore diverse opportunities 
+                    across Africa. Through this initiative, 
+                    engineers can access valuable information on job openings, networking events, and collaboration prospects in various regions. By
+                     fostering cross-border connections, Connect Rwanda aims to enhance professional growth, promote knowledge exchange, and facilitate partnerships, ultimately contributing to the development of engineering expertise throughout Africa.</p>
+                <div className="flex flex-wrap space-x-[63px] mt-[25px] justify-center">
+                    <div className="w-64 h-64 border border-gray-400">
+                    <img src="/grp1.jpg" alt="" className="w-full h-[300px] object-cover"/>
+                    </div>
+                    <div className="w-64 h-64 border border-gray-400">
+                    <img src="/grp2.jpg" alt="" className="w-full h-[300px] object-cover"/>
+                    </div>
+                    <div className="w-64 h-64 border border-gray-400">
+                    <img src="/group3.jpg" alt="" className="w-full h-[300px] object-cover"/>
+                    </div>
+
+
+                </div>
                 </div>
             </div>
-            <div className="flex flex-col space-y-[20px]">
-                <h1 className="text-2xl font-bold underline underline-offset-8
-                 text-[#b3afaf]">Experience</h1>
-                <div className="grid grid-cols-3 gap-6">
-                <Skill imageSrc="/sidehustle.png" language="Side Hustle" level="Internship" color="bg-[#76cee8]"
-                    experience="Software Developer. "/>
-                 <Skill imageSrc="/andela.png" language="Andela" level="Internship" color="bg-[#76cee8]"
-                    experience="Full-stack Developer. "/>
-                <Skill imageSrc="/cotis.jpeg" language="Cotis ltd" level="Paid job" color="bg-[#0fdb42]"
-                    experience="Network Engineer. "/>
-                </div>
-            </div>
-            <div className="flex flex-col space-y-[40px]">
-                <h1 className="text-2xl font-bold underline underline-offset-8
-                 text-[#b3afaf]">Works</h1>
-                <div className="grid grid-cols-3 gap-6">
-               <Works  imageSrc="/commerce.png" language="E-Commerce" 
-                    experience="https://pro1commerce.netlify.app/"/>
-                <Works  imageSrc="/ori.png" language="Three Js" 
-                    experience="https://origame.netlify.app/"/>
-                <Works  imageSrc="/rconnect.png" language="Connectivity"
-                    experience="https://rconnect.netlify.app/"/>
-                </div>
-            </div>
+            
+           
         </div>
     )
 }
