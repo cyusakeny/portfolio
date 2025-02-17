@@ -67,7 +67,7 @@ const Display =()=>{
         <title>Cyusa Keny</title>
       </Head>
     <div className=" flex flex-col bg-[#04001f] h-screen overflow-y-hidden">
-      <div className="mt-[10px] text-white  flex flex-row justify-end 
+      <div className="mt-[10px] text-white hidden flex flex-row justify-end 
        pr-[23%] space-x-[11%]">
         <p className="flex flex-row cursor-pointer hover:border-b-[1px]
          border-white" onClick={()=>{setIndex(1)}}>
@@ -82,7 +82,7 @@ const Display =()=>{
           <FontAwesomeIcon icon={faUserCircle} className=" w-[20px] h-[20px]"/>
           About Me</p>
       </div>
-      <div className="overflow-y-auto h-[82%] w-[80%] mt-[30px] ml-[8%] scrollbar scrollbar-thumb-[#f5f5f5]
+      <div className="overflow-y-auto sm:h-[82%] h-full sm:w-[80%] w-full mt-[30px] sm:ml-[8%] ml-0  scrollbar scrollbar-thumb-[#f5f5f5]
       scrollbar-w-[3px]  
       ">
       {Display()}
@@ -91,22 +91,22 @@ const Display =()=>{
       <FontAwesomeIcon icon={faCircle} className={Icon1}/>
       <FontAwesomeIcon icon={faCircle} className={Icon2}/>
       <FontAwesomeIcon icon={faCircle} className={Icon3}/>
-      <div className="flex flex-row space-x-[42px] ml-[520px]">
+      <div className="flex flex-row space-x-[42px] ml-[520px] ">
       <FontAwesomeIcon icon={faArrowCircleLeft} className="cursor-pointer text-[#b3afaf] w-[50px] h-[30px]" onClick={HandLeftIcon}/>
       <FontAwesomeIcon icon={faArrowCircleRight} className="cursor-pointer text-[#b3afaf] w-[50px] h-[30px]"onClick={HandRightIcon}/>
       </div>
       </div>
-      <div className=" absolute bottom-[14%] text-[1px] left-[1%] w-[3%]">
+      <div className=" sm:block hidden absolute bottom-[14%] text-[1px] left-[1%] w-[2%]">
        <a href="https://www.linkedin.com/in/cyusa-munezero-keny-172b621bb/"><FontAwesomeIcon icon={faLinkedin} className=" text-[#b3afaf] w-[23px] h-[30px]"/></a> 
        <a href=""><FontAwesomeIcon icon={faTwitter} className=" text-[#b3afaf] w-[23px] h-[30px]"/></a>
       <a href=""><FontAwesomeIcon icon={faFacebook} className="text-[#b3afaf] w-[23px] h-[30px]" /></a>
       </div>
-      <div className=" text-[#b3afaf] text-center flex flex-col space-y-[20px] absolute bottom-[54%] w-[3%] left-[90%]">
+      </div>
+      <div className="sm:block hidden text-[#b3afaf] text-center flex flex-col space-y-[20px] absolute bottom-[54%] w-[3%] left-[90%]">
       <p className={Page1}>01</p>
       <p className={Page2}>02</p>
       <p className={Page3}>03</p>
       </div>
-    </div>
     </>
   );
 };

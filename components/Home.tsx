@@ -1,12 +1,13 @@
 import React from 'react';
+import ComputersCanvas from './computercanvas';
 
 interface MyComponentProps {
 }
 
 const Home: React.FC<MyComponentProps> = ({ /* Destructure props here */ }) => {
   return (
-    <div className="  w-[100%] flex flex-row">
-        <div className='flex flex-col pl-[3px] w-[50%] text-[#b3afaf]  font-mono'>
+    <div className=" w-[100%] h-full flex md:flex-row flex-col">
+        <div className='flex flex-col justify-center pl-[3px] sm:w-[50%] w-full text-[#b3afaf]  font-mono'>
         <p className="text-2xl">Hi! I&apos;m</p>
         <p className="text-5xl font-bold mb-[33px] mt-[13px]">Cyusa Keny</p>
         <hr className="w-[70px] ml-[2px] border-t-[1px] border-[#b3afaf]" />
@@ -20,9 +21,9 @@ problem-solving abilities.
           <a href="https://github.com/cyusakeny">Github Link</a>
         </span>
         </div>
-        <div className=" h-full  w-[50%] ">
-        <img src="/keny.png" alt="" className="w-full h-[500px] object-cover"/>
-        </div>
+        <section className="sm:block hidden rounded-md bg-white bg-opacity-10  backdrop-blur-sm h-[100%] border-none w-[50%] flex items-center justify-end">
+        <ComputersCanvas/>
+        </section>
      
     </div>
   );
